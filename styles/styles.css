@@ -62,9 +62,9 @@ footer{
 }
 
 aside h2{
-    position: relative;
-    top: 47px;
-    left: 75px;
+    position: absolute;
+    top: 400px;
+    left: 125px;
     color: #ddd;
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: #000;
