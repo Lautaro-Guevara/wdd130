@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <div class="form-item">
+                    <label for="q1">What HTML element is used to create a clickable button?</label>
+                    <input type="text" name="q1" id="q1">
+                </div>
+                <div class="form-item">
+                    <label for="q2">Explain the purpose of the 'p' tag in HTML.</label>
+                    <textarea name="q2" id="q2" rows="4" placeholder="Insert your answer"></textarea>
+                </div>
+                <div class="form-item">
+                    <label for="q3">Which HTML element is used to create a dropdown menu?</label>
+                    <select name="q3" id="q3">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="select">select</option>
+                        <option value="input">input</option>
+                        <option value="textarea">textarea</option>
+                        <option value="button">button</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label for="q4">How many heading levels are available in HTML?</label>
+                    <input type="number" name="q4" id="q4" min="0">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+</html>
