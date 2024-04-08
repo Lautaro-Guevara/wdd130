@@ -215,6 +215,79 @@ section>div>img{
     max-width: 20%;
 }
 
+/* Contact page styles */
+
+#contact-hero {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    
+}
+
+#contact-hero article>p{
+    text-align: center;
+}
+
+#map {
+    height: 300px;
+    margin-top: 20px;
+}
+.employee-profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.employee-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.employee-profile .caption {
+    text-align: center;
+}
+.contact-form {
+    margin-top: 40px;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form textarea {
+    resize: vertical;
+}
+.contact-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.contact-form fieldset div {
+    margin-bottom: 10px;
+}
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+
  /* Trip page styles */
 
 #trip-descriptions img {
@@ -247,22 +320,21 @@ section>div>img{
 
 
 /* Home page styles */
-#hero-section {
-    position: relative;
-    text-align: center;
-    color: white;
-}
+
 #hero-section img {
     width: 100%;
     height: auto;
 }
-#hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+
+#index-hero-content p{
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+    background-color: #237bbf91;
 }
+
 #newsletter-section {
     background-color: #f4f4f4;
     padding: 40px;
@@ -296,12 +368,18 @@ section>div>img{
     text-align: center;
     margin-top: 40px;
 }
+
+#cta-trips p{
+    margin-bottom: 20px;
+}
+
 #cta-trips a {
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    
 }
 #cta-trips a:hover {
     background-color: #45a049;
