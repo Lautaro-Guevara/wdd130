@@ -232,29 +232,36 @@ section>div>img{
     height: 300px;
     margin-top: 20px;
 }
+
 .employee-profile {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 40px;
 }
+
 .employee-profile img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
+
 .employee-profile .caption {
     text-align: center;
 }
-.contact-form {
+        /* form styles */
+
+        .contact-form {
     margin-top: 40px;
 }
+
 .contact-form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
+
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
@@ -264,14 +271,43 @@ section>div>img{
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 .contact-form textarea {
     resize: vertical;
 }
+
 .contact-form fieldset {
     border: none;
     padding: 0;
     margin: 0;
 }
+
+.purpose div{
+    display: flex;
+    align-items: center;
+}
+
+.purpose input{
+    margin-right: 10px;
+}
+
+.purpose label{
+    display: inline-block;
+}
+
+#checkbox {
+    display: flex;
+    align-items: center;
+}
+
+#checkbox input[type="checkbox"]{
+    margin-right: 10px;
+}
+
+#checkbox label{
+    display: inline-block;
+}
+
 .contact-form fieldset div {
     margin-bottom: 10px;
 }
